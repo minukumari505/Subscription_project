@@ -10,5 +10,6 @@ const express=require("express");
 const {Userlogin}= require("../controllers/loginuser");
 const router= express.Router();
 
-router.post("/login",Userlogin);
+router.post("/llogin",Userlogin);
 module.exports=router;
+

@@ -1,4 +1,4 @@
-const User=require("../models/User");
+const User=require("../models/Member");
 
 exports.delete_required_user=async(req,res)=>{
       try{

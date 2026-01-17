@@ -1,4 +1,4 @@
-const User=require("../models/User"); //to get information of user
+const User=require("../models/Member"); //to get information of user
 const bcrypt=require('bcrypt');// Library used for Hashing or Comparing password
 exports.Userlogin=async(req , res)=>{
   try{

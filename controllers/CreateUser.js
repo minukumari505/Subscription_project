@@ -1,5 +1,5 @@
 
-const User = require("../models/User");
+const User = require("../models/Member");
 // use of bcrypt library for password hashing 
 const bcrypt=require('bcrypt');
 exports.createUser = async(req,res)=>{
